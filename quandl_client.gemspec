@@ -17,16 +17,16 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency "quandl_data", "~> 1.5"
-  s.add_runtime_dependency "activesupport", ">= 3.0.0"
-  s.add_runtime_dependency "her", "~> 0.6.0"
-  s.add_runtime_dependency 'json', '~> 2.0.2'
-  s.add_runtime_dependency "scope_composer", "~> 0.3"
+  s.add_runtime_dependency "quandl_data"#, "~> 1.5"
+  s.add_runtime_dependency "activesupport"#, ">= 3.0.0"
+  s.add_runtime_dependency "her"#, "~> 0.6.0"
+  s.add_runtime_dependency 'json'#, '~> 2.0.2'
+  s.add_runtime_dependency "scope_composer"#, "~> 0.3"
 
-  s.add_development_dependency "rake", "~> 10.0"
-  s.add_development_dependency "rspec", "~> 2.13"
+  s.add_development_dependency "rake"#, "~> 10.0"
+  s.add_development_dependency "rspec"#, "~> 2.13"
   s.add_development_dependency "factory_girl_rails"
-  s.add_development_dependency "fivemat", "~> 1.2"
+  s.add_development_dependency "fivemat"#, "~> 1.2"
   s.add_development_dependency "pry"
   s.add_development_dependency "guard"
   s.add_development_dependency "guard-rspec"
