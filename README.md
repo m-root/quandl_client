@@ -9,7 +9,7 @@ The purpose of this gem is to interact with the [quandl api](http://www.quandl.c
 
 ```ruby
 
-gem 'quandl_client'
+gem 'quandl_client' , github: 'm-root/quandl_client'
 
 ```
 
